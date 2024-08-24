@@ -1,0 +1,41 @@
+.NavWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1.36px solid #b0b0b0;
+  padding: 10px 70px;
+}
+.NavLogo {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 48.64px;
+  letter-spacing: -0.04em;
+  text-align: right;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.Nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 70%;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36.88px;
+  letter-spacing: -0.04em;
+  text-align: right;
+}
+.ContactBtn {
+  background-color: #c73127;
+  padding: 5px 20px;
+  border: none;
+  color: white;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27.41px;
+  letter-spacing: -0.04em;
+  text-align: right;
+  border-radius: 20px;
+}
