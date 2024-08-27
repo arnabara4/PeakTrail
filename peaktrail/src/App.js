@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
-import Para1 from "./components/Para/Para1/Para1";
-import VideoTxt from "./components/VideoTxt/VideoTxt";
+import Header from "./components/Header/Header";
 import Para2 from "./components/Para/Para2/Para2";
 import Para3 from "./components/Para/Para3/Para3";
 import Para4 from "./components/Para/Para4/Para4";
@@ -11,13 +9,15 @@ import Misc1 from "./components/Misc/Misc1";
 import Text2 from "./components/Text1/Text2";
 import Misc2 from "./components/Misc/Misc2";
 import Text3 from "./components/Text1/Text3";
+import SlideShow from "./components/ImgSlideShow/SlideShow";
+import Text4 from "./components/Text1/Text4";
+import Review from "./components/Review/Review";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Para1 />
-      <VideoTxt />
+      <Header />
       <Para2 />
       <Para3 />
       <Para4 />
@@ -27,6 +27,10 @@ const App = () => {
       <Text2 />
       <Misc2 />
       <Text3 />
+      <SlideShow />
+      <Text4 />
+      <Review />
+      <Footer />
     </div>
   );
 };

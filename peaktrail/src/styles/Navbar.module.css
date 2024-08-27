@@ -1,34 +1,35 @@
 .NavWrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  border: 1.36px solid #b0b0b0;
-  padding: 10px 50px;
+  padding: 0px 50px;
+  gap: 26%;
 }
-.NavLogo {
-  font-family: "Poppins";
-  font-size: 25px;
-  font-weight: 900;
-  line-height: 48.64px;
-  letter-spacing: 0em;
-  text-align: right;
-  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+.NavLogo img{
+  width: 12vw;
+  margin-left: 30px;
 }
 .Nav {
+  border: none;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.673);
   display: flex;
   justify-content: center;
   gap: 40px;
-  width: 70%;
+  height: 40%;
   font-family: "Poppins";
   font-size: 20px;
   font-weight: 400;
   line-height: 36.88px;
   letter-spacing: -0.04em;
   text-align: right;
+  border-radius: 25px;
+  padding: 0px 20px;
 }
 .ContactBtn {
   background-color: #c73127;
-  padding: 5px 20px;
+  text-align: center;
+  width: 15%;
   border: none;
   color: white;
   font-family: "Poppins";
@@ -36,6 +37,5 @@
   font-weight: 700;
   line-height: 27.41px;
   letter-spacing: -0.04em;
-  text-align: right;
-  border-radius: 20px;
+  border-radius: 18px;
 }
