@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import VideoTxt from "../VideoTxt/VideoTxt";
-import video from "../../assets/Video.mov";
+import video from "../../assets/Video.mp4";
 import styles from "../../styles/Header.module.css";
 const Header = () => {
   return (

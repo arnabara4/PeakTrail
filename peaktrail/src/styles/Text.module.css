@@ -29,7 +29,7 @@
   text-align: left;
   text-shadow: 0px 2px, 2px 0px, 2px 2px;
   margin-left: 20px;
-  color: rgba(0, 0, 0, 0); /* Text fill color */
+  color: rgba(0, 0, 0, 0); 
   -webkit-text-stroke: 0.01px white;
 }
 .VidTxt {
@@ -75,6 +75,7 @@
   letter-spacing: -0.04em;
   text-align: left;
   margin-left: 50px;
+  margin-top: 60px;
 }
 .Para3 {
   font-family: "Poppins";
