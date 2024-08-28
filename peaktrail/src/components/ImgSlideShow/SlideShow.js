@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import styles from "../../styles/Carousel.module.css";
 import img1 from "./SlideImg/Img1.jpeg";
 import img2 from "./SlideImg/Img2.jpeg";
@@ -35,23 +35,24 @@ const SlideShow = () => {
     img2,
     img3,
     img4,
-    img1,
-    img2,
-    img3,
-    img4,
   ];
-
+  useEffect(() => {
+    const box = boxRef.current;
+    if (box) {
+      box.scrollLeft = 0; // Ensure it starts with the first image
+    }
+  }, []);
   return (
     <div className={styles.CarousalWrapper}>
       <button
         className={styles.prebtn}
         onClick={btnprev}>
-        &lt;
+        <span class="material-symbols-outlined">arrow_back_ios</span>
       </button>
       <button
         className={styles.postbtn}
         onClick={btnpost}>
-        &gt;
+        <span class="material-symbols-outlined">arrow_forward_ios</span>
       </button>
       <div
         className={styles.container}
