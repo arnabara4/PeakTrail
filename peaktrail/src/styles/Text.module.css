@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Bradley Hand";
+  src: url("../assets/BRADHI.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Bradley Hand", cursive;
+}
 .laal {
   color: #d43328;
 }
@@ -29,7 +39,7 @@
   text-align: left;
   text-shadow: 0px 2px, 2px 0px, 2px 2px;
   margin-left: 20px;
-  color: rgba(0, 0, 0, 0); 
+  color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 0.01px white;
 }
 .VidTxt {
@@ -54,15 +64,17 @@
 .vibe {
   transform: rotate(-10.48deg);
   font-family: "Bradley Hand", cursive, sans-serif;
-  font-size: 190px;
+  font-size: 250px;
   font-weight: 700;
   line-height: 100px;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   text-align: left;
   color: #c73127;
   position: absolute;
   bottom: 0;
   right: 40vw;
+  left:36%;
+  top:80%;
 }
 .Para2 {
   display: flex;
