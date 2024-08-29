@@ -71,3 +71,42 @@
   height: 35vh;
   border-radius: 15px;
 }
+@media(max-width:500px){
+  .Misc1Wrapper{
+    margin: 0;
+    margin-top:50px;
+    gap:0;
+  };
+  .Misc1Cmpt{
+    padding: 0;
+    margin: 0;
+    width: 20%;
+  }
+  .Misc1Cmpt b{
+    font-size: 15px;
+    line-height: 17px;
+    text-shadow: none;
+    color: black;
+  }
+  .Misc1Cmpt p{
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .Misc1Cmpt span{
+    transform:scale(0.7);
+  }
+  .Misc2Wrapper{
+    flex-direction: column-reverse;
+    margin: 0px;
+    margin-top: 5px;
+    gap:40px;
+  }
+  .Misc2Wrapper img{
+    width: 100%;
+    height: 40%;
+  }
+  .Misc2text{
+    width: 100%;
+    gap: 30px;
+  }
+}

@@ -5,7 +5,7 @@ const VideoTxt = () => {
     <div className={styles.VideoTxtWrapper}>
       <h1 className={styles.VThead}>Get into the</h1>
       <div className={styles.VidTxt}>
-        <span>Travel</span>
+        <div>Travel</div>
       </div>
       <span className={styles.vibe}>Vibe</span>
     </div>
