@@ -147,13 +147,16 @@
   bottom: -25%;
 }
 @media (max-width: 500px) {
+  .container {
+    height: none;
+  }
   .FooterWrapper {
     flex-direction: column-reverse;
     padding: 0 0;
     gap: 50px;
     padding-left: 10px;
     transform: scale(0.9);
-    margin-top: 50px 0;
+    margin-top: 50px;
   }
   .Comp1 {
     padding: 0;
