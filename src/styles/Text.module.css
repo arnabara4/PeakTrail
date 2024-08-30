@@ -240,19 +240,21 @@ body {
   }
   .VidTxt {
     margin: 0;
-    height: 100%;
     object-fit: contain;
     align-items: flex-start;
     position: absolute;
     top: 60%;
+    gap: 20px;
   }
   .VidTxt div {
     font-size: 30vw;
     width: 100%;
     text-align: start;
+    padding-top: 20px;
   }
   .vibe {
-    font-size: 140px;
+    display: flex;
+    font-size: 135px;
     position: absolute;
     top: 35vh;
   }
