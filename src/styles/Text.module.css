@@ -227,15 +227,15 @@ body {
   width: 60%;
 }
 @media (max-width: 500px) {
-  video{
+  video {
     height: 60vh;
   }
   .VideoTxtWrapper {
     margin: 0px;
-    gap:0;
+    gap: 0;
   }
   .VThead {
-    font-size:20vw;
+    font-size: 20vw;
     margin: 0;
   }
   .VidTxt {
@@ -244,42 +244,42 @@ body {
     object-fit: contain;
     align-items: flex-start;
     position: absolute;
-    top:60%;
+    top: 60%;
   }
-  .VidTxt div{
+  .VidTxt div {
     font-size: 30vw;
     width: 100%;
     text-align: start;
   }
-  .vibe{
+  .vibe {
     font-size: 140px;
     position: absolute;
     top: 35vh;
   }
-  .Para2{
+  .Para2 {
     margin: 0;
     margin-top: 50px;
     font-size: 20px;
     line-height: 25px;
     display: none;
   }
-  .Para3{
+  .Para3 {
     font-size: 33px;
     line-height: 35px;
     margin: 0;
     margin-top: 50px;
   }
-  .Para4{
+  .Para4 {
     font-size: 20px;
     line-height: 30px;
   }
-  .Text1Wrapper{
+  .Text1Wrapper {
     margin: 0;
     padding: 0;
     justify-content: space-between;
     align-items: center;
   }
-  .Text1Wrapper div{
+  .Text1Wrapper div {
     width: 50%;
     transform: scale(0.7);
     padding: 0;
@@ -287,21 +287,21 @@ body {
     font-size: 6em;
     line-height: 0.9em;
   }
-  .Text1Wrapper p{
+  .Text1Wrapper p {
     width: 50%;
     padding: 0;
     transform: scale(0.7);
     line-height: 25px;
     font-size: 1.5em;
   }
-  .Text2Wrapper{
+  .Text2Wrapper {
     margin: 0;
     padding: 0;
     justify-content: space-between;
     align-items: start;
-    gap:20px;
+    gap: 20px;
   }
-  .Text2Wrapper div{
+  .Text2Wrapper div {
     width: 50%;
     transform: scale(0.6);
     padding: 0;
@@ -310,12 +310,47 @@ body {
     line-height: 1em;
     margin: 0;
   }
-  .Text2Wrapper p{
+  .Text2Wrapper p {
     width: 50%;
     padding: 0;
     transform: scale(0.7);
     line-height: 25px;
     font-size: 1.4em;
     margin-top: 150px;
-}
+  }
+  .Text3Wrapper {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    margin-top: 40px;
+  }
+  .Text3Wrapper div {
+    font-size: 70px;
+    letter-spacing: 0;
+    text-align: center;
+    gap: 0;
+    flex-direction: column;
+  }
+  .Text3Wrapper span{
+    text-align: center;
+  }
+  .Text3Wrapper p {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 5px;
+    margin-top: 30px;
+  }
+  .Text4Wrapper{
+    margin-top:50px;
+  }
+  .Text4Wrapper div{
+    line-height: 40px;
+    font-size: 35px;
+    text-align: center;
+  }
+  .Text4Wrapper p{
+    width: 100%;
+    font-size: 15px;
+    line-height: 18px;
+  }
 }

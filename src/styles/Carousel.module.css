@@ -48,3 +48,12 @@ button {
 .item:hover {
   width: 28vw;
 }
+@media(max-width:500px){
+  .CarousalWrapper{
+    margin-top: 60px;
+  }
+  .item{
+    height:30vh;
+    width:30vw;
+  }
+}
