@@ -40,7 +40,7 @@ body {
   text-shadow: 0px 2px, 2px 0px, 2px 2px;
   margin-left: 20px;
   color: rgba(0, 0, 0, 0);
-  -webkit-text-stroke: 0.01px white;
+  -webkit-text-stroke: 1px white;
 }
 .VidTxt {
   display: flex;
@@ -325,17 +325,18 @@ body {
     margin-top: 40px;
   }
   .Text3Wrapper div {
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 0;
     text-align: center;
     gap: 0;
+    line-height: 65px;
     flex-direction: column;
   }
   .Text3Wrapper span{
     text-align: center;
   }
   .Text3Wrapper p {
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     padding: 0 5px;
     margin-top: 30px;

@@ -54,20 +54,26 @@
   .reviewWrapper {
     margin-top: 80px;
     justify-content: center;
-    gap: 0;
+    gap:5px;
   }
   .CardWrapper {
-    gap: 15px;
+    gap: 10px;
+    padding: 5px;
   }
   .Top {
     flex-direction: column;
     padding: 0;
+    transform: scale(0.98);
   }
   .btm {
     font-size: 10px;
     padding: 0;
     line-height: 13px;
     padding-bottom:10px;
+    transform: scale(0.95)
+  }
+  .data{
+    transform: scale(0.8);
   }
   
 }
