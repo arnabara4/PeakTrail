@@ -150,9 +150,11 @@
   .ImgWrapper .left{
     transform: rotate(-10deg);
     margin-top: 10px;
+    z-index: -1;
   }
   .ImgWrapper .right{
     transform: rotate(10deg);
     margin-top: 10px;
+    z-index: -1;
   }
 }
