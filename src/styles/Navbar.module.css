@@ -42,7 +42,7 @@
 @media(max-width:500px){
   .NavWrapper{
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 15vh;
     gap: 40px;
     align-items: center;
     justify-content: center;
@@ -50,13 +50,30 @@
   }
   .ContactBtn {
     position:absolute;
-    top:10px;
+    top:5vh;
     right: 0;
-    width: 80px;
-    margin: 0;
+    width: 20vw;
   }
   .NavLogo img{
-    width: 40vw;
+    width: 30vw;
     margin-right: 25px;
+    position:absolute;
+    top:1vh;
+    left: 0;
 }
+}
+@media(max-width:450px){
+  .NavLogo img{
+    top:1.5vh;
+  }
+}
+@media(max-width:400px){
+  .NavLogo img{
+    top:2vh;
+  }
+}
+@media(max-width:350px){
+  .NavLogo img{
+    top:2.5vh;
+  }
 }

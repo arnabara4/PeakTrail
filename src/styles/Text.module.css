@@ -295,6 +295,7 @@ body {
     transform: scale(0.7);
     line-height: 25px;
     font-size: 1.5em;
+    margin-left: 6vw;
   }
   .Text2Wrapper {
     margin: 0;
@@ -318,13 +319,13 @@ body {
     transform: scale(0.7);
     line-height: 25px;
     font-size: 1.4em;
-    margin-top: 150px;
+    margin-top: 18vh;
   }
   .Text3Wrapper {
     margin: 0;
     padding: 0;
     gap: 0;
-    margin-top: 40px;
+    margin-top: 100px;
   }
   .Text3Wrapper div {
     font-size: 60px;

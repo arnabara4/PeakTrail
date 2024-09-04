@@ -52,6 +52,9 @@
   margin-top: 100px;
   padding: 0 55px;
 }
+.MiscPhoneWrapper{
+  display: none;
+}
 .Misc2text {
   display: flex;
   flex-direction: column;
@@ -100,6 +103,7 @@
     margin: 0px;
     margin-top: 5px;
     gap:40px;
+    display: none;
   }
   .Misc2Wrapper img{
     width: 100%;
@@ -109,5 +113,46 @@
     width: 100%;
     gap: 30px;
     transform: scale(0.9);
+  }
+  .MiscPhoneWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+  }
+  .MiscPhoneWrapper p{
+    font-family: "Poppins";
+    color: #737B7D;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  .Misc1Wrapper .PWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ImgWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: -2px;
+  }
+  .ImgWrapper img{
+    border-radius: 15px;
+    width: 30%;
+    height: 30vh;
+  }
+  .ImgWrapper .left{
+    transform: rotate(-10deg);
+    margin-top: 10px;
+    z-index: -1;
+  }
+  .ImgWrapper .right{
+    transform: rotate(10deg);
+    margin-top: 10px;
+    z-index: -1;
   }
 }

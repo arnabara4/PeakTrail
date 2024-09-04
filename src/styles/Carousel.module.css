@@ -56,4 +56,7 @@ button {
     height:30vh;
     width:30vw;
   }
+  .item:hover{
+    width:45vw;
+  }
 }

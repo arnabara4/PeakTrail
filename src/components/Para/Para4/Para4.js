@@ -8,7 +8,7 @@ const Para4 = () => {
         We'll make it unforgettable with amazing experiences and smooth
         planning.
       </li>
-      <li>Just relax and enjay-let us handle everything!</li>
+      <li>Just relax and enjoy-let us handle everything!</li>
     </ul>
   );
 };
