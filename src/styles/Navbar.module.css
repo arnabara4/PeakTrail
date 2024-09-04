@@ -42,7 +42,7 @@
 @media(max-width:500px){
   .NavWrapper{
     flex-direction: column;
-    margin-top: 15vh;
+    margin-top: 10vh;
     gap: 40px;
     align-items: center;
     justify-content: center;
