@@ -1,0 +1,68 @@
+{
+  "elements": [
+    {
+      "Pic": "/assets/image.png",
+      "place": "Europe",
+      "placename": "Creative Arts Europe",
+      "desc": "Europe is a popular destination for school art trips with its diversity of artistic styles across each country.",
+      "star": 4.8,
+      "rating": 250
+    },
+    {
+      "Pic": "/assets/image-2.png",
+      "place": "USA",
+      "placename": "New York Creative and Drama",
+      "desc": "Creative students will thrive on this New York City school trip. With four days of Broadway workshops and hands on experiences at the best galleries in ",
+      "star": 4.8,
+      "rating": 250
+    },
+    {
+      "Pic": "/assets/image-3.png",
+      "place": "Europe",
+      "placename": "Visual Arts: Media and Photography Tour",
+      "desc": "Take photos of the Eiffel Tower, go on a movie walking tour of London.",
+      "star": 4.8,
+      "rating": 250
+    },
+    {
+      "Pic": "/assets/image-4.png",
+      "place": "India",
+      "placename": "Red Fort",
+      "desc": "Famous port at Delhi known for its rich history and architecture",
+      "star": 4.8,
+      "rating": 250
+    },
+    {
+      "Pic": "/assets/image.png",
+      "place": "Europe",
+      "placename": "Creative Arts Europe",
+      "desc": "Europe is a popular destination for school art trips with its diversity of artistic styles across each country.",
+      "star": 4.8,
+      "rating": 250
+    },
+    {
+      "Pic": "/assets/image-2.png",
+      "place": "USA",
+      "placename": "New York Creative and Drama",
+      "desc": "Creative students will thrive on this New York City school trip. With four days of Broadway workshops and hands on experiences at the best galleries in ",
+      "star": 4.8,
+      "rating": 250
+    },
+    {
+      "Pic": "/assets/image-3.png",
+      "place": "Europe",
+      "placename": "Visual Arts: Media and Photography Tour",
+      "desc": "Take photos of the Eiffel Tower, go on a movie walking tour of London.",
+      "star": 4.8,
+      "rating": 250
+    },
+    {
+      "Pic": "/assets/image-4.png",
+      "place": "India",
+      "placename": "Red Fort",
+      "desc": "Famous port at Delhi known for its rich history and architecture",
+      "star": 4.8,
+      "rating": 250
+    }
+  ]
+}

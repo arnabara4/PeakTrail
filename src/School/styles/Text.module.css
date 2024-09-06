@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "Bradley Hand";
+  src: url("../assets/BRADHI.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Bradley Hand", cursive;
+}
+.laal {
+  color: #d43328;
+}
+.laal2 {
+  color: #ff1303;
+}
+.Para1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  color: #787878;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+.VideoTxtWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 50px;
+  gap: 0;
+}
+.VThead {
+  font-family: "Poppins";
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+  margin-left: 20px;
+  color: rgba(250, 250, 250);
+}
+.VidTxt {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  margin-left: 20px;
+  margin-top: 7vh;
+  position: absolute;
+  overflow: hidden;
+  height: 40vh;
+}
+.VidTxt div {
+  font-family: "Poppins";
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 30vh;
+  letter-spacing: -0.04em;
+  text-align: left;
+  letter-spacing: -0.03em;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+  color: white;
+}
+.vibe {
+  transform: rotate(-4deg);
+  display: flex;
+  align-items: center;
+  font-family: "Long Cang", cursive;
+  font-size: 150px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ff1000;
+  padding-bottom: 13vh;
+}
+.Comp1Wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 20vw;
+  margin-top: 120px;
+}
+.Comp1Wrapper img {
+  width: 28%;
+  border-radius: 15px;
+  height: 80%;
+  padding-right: 3vw;
+}
+.Txt1Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 42%;
+}
+.Txt1Wrapper p {
+  font-family: "Poppins";
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 6.8vh;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.Txt1Para1 {
+  color: #838383;
+}
+.Txt2Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+  margin-top: 200px;
+}
+.Txt2Para1 {
+  gap: 3vh;
+  width: 60%;
+}
+.Txt2Para1  em {
+  font-style: normal;
+  color: #ff0000;
+}
+.Txt2Para1 p {
+  font-family: "Poppins";
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 17vh;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.Txt2Para2 {
+  width: 20%;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 3vh;
+  letter-spacing: -0.04em;
+  text-align: right;
+  color: #838383;
+  padding-right: 2vw;
+}
+.Text3Wrapper {
+  display: flex;
+  margin-top: 130px;
+  flex-direction: column;
+  margin-left: 55px;
+}
+.Txt3Para1 {
+  width: 70%;
+  font-family: "Poppins";
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 150px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.Txt3Para2 {
+  font-family: "Poppins";
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 150px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9vh;
+  align-items: center;
+}
+.Text4Title em {
+  font-style: normal;
+  color: #ff0000;
+  -webkit-text-stroke: #ff0000 2px;
+}
+.Text4Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 40%;
+  font-family: "Poppins";
+  padding-left: 5.5vw;
+}
+.Text4Title {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-align: left;
+  -webkit-text-stroke: black 2px;
+}
+.Text4Wrapper p {
+  font-family: "Poppins";
+  font-size: 1.5em;
+  line-height: 35px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #838383;
+  opacity: 0.7;
+}
+.container img {
+  width: 50%;
+}
+.Text5Wrapper {
+  font-family: "Poppins";
+  font-size: 110px;
+  line-height: 15vh;
+  letter-spacing: -0.04em;
+  text-align: left;
+  padding-left: 10%;
+  margin-top: 200px;
+}
+.Text5Wrapper em {
+  font-style: normal;
+  color: #ff0000;
+}
+@media (max-width: 500px) {
+  video {
+    height: 60vh;
+  }
+  .VideoTxtWrapper {
+    margin: 0px;
+    gap: 0;
+    margin-top: 5vh;
+  }
+  .VThead {
+    font-size: 20vw;
+    margin: 0;
+  }
+  .VidTxt {
+    margin: 0;
+    object-fit: contain;
+    align-items: flex-start;
+    position: absolute;
+    top: 60%;
+    gap: 20px;
+  }
+  .VidTxt div {
+    font-size: 30vw;
+    width: 100%;
+    text-align: start;
+    padding-top: 20px;
+  }
+  .vibe {
+    display: flex;
+    font-size: 135px;
+    position: absolute;
+    top: 35vh;
+  }
+}
