@@ -13,7 +13,7 @@ const Navbar = () => {
       </span>
       <ul className={styles.Nav}>
         <li>
-          <b>Home</b>
+          <b className={styles.b}>Home</b>
         </li>
         <Link to="/school">
           <li style={{ color: "rgba(0,0,0,0.5)" }}>School</li>

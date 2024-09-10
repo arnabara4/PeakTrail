@@ -13,10 +13,15 @@ const Navbar = () => {
         />
       </span>
       <ul className={styles.Nav}>
-        <Link to="/"><li style={{ color: "rgba(0,0,0,0.5)" }}>Home</li></Link>
+        <Link to="/">
+          <li style={{ color: "rgba(0,0,0,0.5)"}}>Home</li>
+        </Link>
         <li>
           <b>School</b>
         </li>
+        <Link to="/school">
+          <li style={{ color: "rgba(0,0,0,0.5)" }}>College</li>
+        </Link>
       </ul>
       <button className={styles.ContactBtn}>Contact Us</button>
     </div>

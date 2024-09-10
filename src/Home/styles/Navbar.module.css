@@ -39,6 +39,7 @@
   object-fit: contain;
   width: 10vw;
 }
+
 @media(max-width:500px){
   .NavWrapper{
     flex-direction: column;
