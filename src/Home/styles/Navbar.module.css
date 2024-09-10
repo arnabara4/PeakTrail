@@ -50,7 +50,7 @@
   }
   .ContactBtn {
     position:absolute;
-    top:5vh;
+    top:3vh;
     right: 0;
     width: 20vw;
   }
@@ -58,22 +58,16 @@
     width: 30vw;
     margin-right: 25px;
     position:absolute;
-    top:1vh;
+    top: 3vh;
     left: 0;
 }
 }
-@media(max-width:450px){
-  .NavLogo img{
-    top:1.5vh;
-  }
-}
 @media(max-width:400px){
-  .NavLogo img{
-    top:2vh;
+  .ContactBtn {
+    width: 25vw;
+    transform: scale(0.9);
   }
-}
-@media(max-width:350px){
-  .NavLogo img{
-    top:2.5vh;
+  .NavLogo{
+    top: 3.5vh;
   }
 }

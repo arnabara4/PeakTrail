@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   background: #fcfcfc;
-  height: 80vh;
+  height: 75vh;
 }
 .FooterWrapper {
   display: flex;
@@ -156,10 +156,10 @@
   .FooterWrapper {
     flex-direction: column-reverse;
     padding: 0 0;
-    gap: 50px;
+    gap: 70px;
     padding-left: 10px;
     transform: scale(0.9);
-    margin-top: 50px;
+    margin:0;
   }
   .Comp1 {
     padding: 0;
