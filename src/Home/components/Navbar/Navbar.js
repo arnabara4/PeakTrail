@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link to="/school">
           <li style={{ color: "rgba(0,0,0,0.5)" }}>School</li>
         </Link>
-        <Link to="/school">
+        <Link to="/college">
           <li style={{ color: "rgba(0,0,0,0.5)" }}>College</li>
         </Link>
       </ul>

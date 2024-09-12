@@ -1,0 +1,40 @@
+{
+  "reviews": [
+    {
+      "review": "The experience for us was personalised, accessible and our consultant was interested in us. This makes the world of difference when you're travelling with students",
+      "img": "assets/Ellipse 2188.png",
+      "name": "Kishshana Palmer",
+      "profession": "Teacher"
+    },
+    {
+      "review": "The experience for us was personalised, accessible and our consultant was interested in us. This makes the world of difference when you're travelling with students",
+      "img": "assets/Ellipse 2188-2.png",
+      "name": "Sandy Rees",
+      "profession": "Teacher"
+    },
+    {
+      "review": "Fundraising is really 'Relationship Raising.' As nonprofits, we want our donors to fall in love with our mission. Bloomerang helps make that happen and simplifies the journey from prospects to donor engagement.",
+      "img": "assets/Ellipse 2188.png",
+      "name": "Tayyab Yunus",
+      "profession": "CEO"
+    },
+    {
+      "review": "The experience for us was personalised, accessible and our consultant was interested in us. This makes the world of difference when you're travelling with students",
+      "img": "assets/Ellipse 2188-2.png",
+      "name": "Kishshana Palmer",
+      "profession": "Teacher"
+    },
+    {
+      "review": "The experience for us was personalised, accessible and our consultant was interested in us. This makes the world of difference when you're travelling with students",
+      "img": "assets/Ellipse 2188.png",
+      "name": "Sandy Rees",
+      "profession": "Teacher"
+    },
+    {
+      "review": "Fundraising is really 'Relationship Raising.' As nonprofits, we want our donors to fall in love with our mission. Bloomerang helps make that happen and simplifies the journey from prospects to donor engagement.",
+      "img": "assets/Ellipse 2188-2.png",
+      "name": "Tayyab Yunus",
+      "profession": "CEO"
+    }
+  ]
+}
