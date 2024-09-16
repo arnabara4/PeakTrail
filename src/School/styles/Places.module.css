@@ -52,3 +52,27 @@ rating {
   bottom: 15px;
   align-items: center;
 }
+@media(max-width:500px){
+  .itemWrapper{
+    width: 30%;
+    gap: 0.5vh;
+  }
+  .place{
+    font-size: 10px;
+  }
+  .placename{
+    font-size: 15px;
+    line-height: 2vh;
+  }
+  .itemWrapper p{
+    font-size: 8px;
+    line-height: 10px;
+  }
+  rating{
+    font-size:10px;
+  }
+  .container{
+    margin-top: 50px;
+  }
+
+}

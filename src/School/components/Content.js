@@ -1,28 +1,24 @@
 import React from "react";
-import Text from "./Text/Text";
-import Text1 from "./Text/Text1";
-import Covered from "./Covered/Covered";
-import Text2 from "./Text/Text2";
-import Test3 from "./Text/Test3";
-import Misc from "./Misc";
-import Text5 from "./Text/Text5";
 import Places from "./Places/Places";
 import Carousel from "./Carousel/Carousel";
 import Footer from "./Footer";
+import Text1 from "./Text/Text1";
+import Misc from "./Misc";
+import Text2 from "./Text/Text2";
+import Slider from "./Slider";
+import Text3 from "./Text/Text3";
 
 const Content = () => {
   return (
     <div>
-      <Text />
       <Text1 />
-      <Covered />
-      <Text2 />
-      <Test3 />
       <Misc />
-      <Text5/>
-      <Places/>
-      <Carousel/>
-      <Footer/>
+      <Text2 />
+      <Slider />
+      <Places />
+      <Text3/>
+      <Carousel />
+      <Footer />
     </div>
   );
 };

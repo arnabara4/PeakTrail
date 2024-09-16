@@ -2,10 +2,10 @@
   position: relative;
   height: 125vh;
   overflow-x: hidden;
-  background-image:url("../assets//Background.png");
-  background-size:cover;                      
-  background-position:center;                 
-  background-repeat:no-repeat;
+  background-image: url("../assets/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .overlay {
   position: absolute;
@@ -17,4 +17,10 @@
   gap: 100px;
 }
 @media (max-width: 500px) {
+  .HeaderWrapper {
+    background-image: url("../assets/MobileSchoolBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }

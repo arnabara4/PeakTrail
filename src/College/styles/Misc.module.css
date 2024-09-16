@@ -18,7 +18,6 @@
   flex-direction: column;
   gap: 4vh;
   width: 43%;
-
 }
 .txt span {
   font-family: "Long Cang", cursive;
@@ -39,39 +38,82 @@
   text-align: left;
 }
 .CoveredWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0 15px;
-    gap: 50px;
-    margin-top: 170px;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 15px;
+  gap: 50px;
+  margin-top: 170px;
+  align-items: center;
+}
+.CardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25%;
+  gap: 30px;
+}
+.CardWrapper img {
+  width: 40px;
+  height: 40px;
+}
+.CardWrapper span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -0.15157552063465118px;
+  text-align: left;
+  color: #071a34;
+}
+.CardWrapper p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: -0.15157552063465118px;
+  text-align: left;
+  color: #1a2d47;
+  line-height: 4vh;
+}
+@media (max-width: 500px) {
+  .container {
+    margin-top: 8vh;
   }
-  .CardWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 25%;
-    gap: 30px;
+  .Comp {
+    gap: 10vw;
+  }
+  .Comp img{
+    width: 50%;
+    height: auto;
+  }
+  .txt{
+    width: 30%;
+    gap: 2vh;
+  }
+  .txt p{
+    line-height: 1.5vh;
+  }
+  .CoveredWrapper{
+    gap: 25px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .CardWrapper{
+    justify-content: space-between;
+    width: 45%;
+    align-items: first baseline;
+    
   }
   .CardWrapper img {
-    width: 40px;
-    height: 40px;
+
+    width: 30px;
+    height: 30px;
   }
-  .CardWrapper span {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    letter-spacing: -0.15157552063465118px;
-    text-align: left;
-    color: #071a34;
+  .CardWrapper span{
+    font-size: 1.5em;
   }
-  .CardWrapper p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: -0.15157552063465118px;
-    text-align: left;
-    color: #1a2d47;
-    line-height: 4vh;
+  .CardWrapper p{
+    font-size: 1em;
+    line-height: 2vh;
   }
+
+}
