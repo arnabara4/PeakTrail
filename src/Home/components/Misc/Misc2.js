@@ -10,14 +10,19 @@ const Misc2 = () => {
       <div className={styles.Misc2Wrapper}>
         <div className={styles.Misc2text}>
           <p>
-            Stay in 5-star luxury hotels and travel in a stylish Mercedes-Benz
-            bus. Enjoy local cuisine and discover special hidden gems. Plus, get
-            personalized help from a travel expert who guides you throughout
-            your trip.
+            When the sun sets, get ready for the ultimate party experience—dance
+            the night away at exclusive DJ and pool parties!
           </p>
           <p>
-            That means starting from departing from the place and ending the
-            trip we take care of everything. We promise nothing can be left.  
+            Throughout your trip, stay in luxurious 5-star hotels and travel in
+            a stylish Mercedes-Benz bus. Savor local cuisine and uncover special
+            hidden gems. Plus, benefit from personalized assistance from a
+            travel expert who will guide you every step of the way.
+          </p>
+          <p>
+            That means we take care of everything from the moment you depart
+            until the end of the trip. We promise that nothing will be left to
+            chance.
           </p>
         </div>
         <img
@@ -43,9 +48,7 @@ const Misc2 = () => {
           />
         </div>
         <div className={styles.PWrapper}>
-          <p>
-            Stay in 5-star luxury hotels
-          </p>
+          <p>Stay in 5-star luxury hotels</p>
           <p>Enjoy local cuisine</p>
           <p>Travel in a stylish Mercedes-Benz bus</p>
         </div>

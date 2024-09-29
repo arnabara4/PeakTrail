@@ -3,13 +3,15 @@
   overflow: hidden;
   background: #fcfcfc;
   height: 75vh;
+  margin-top: 50px;
 }
 .FooterWrapper {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  margin-top: 150px;
+  margin-top: 50px;
   padding: 0 20px;
+  align-items: center;
 }
 .Comp1 {
   width: 25vw;

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/Carousel.module.css";
+import styles from "../../styles/Carousal2.module.css";
 import data from "./data.json";
 import Card from "./Card";
 import { useRef, useEffect } from "react";

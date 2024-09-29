@@ -1,7 +1,6 @@
 import React from "react";
 import Para2 from "../Para/Para2/Para2";
 import Para3 from "../Para/Para3/Para3";
-import Para4 from "../Para/Para4/Para4";
 import ImgCmpt from "../ImgCmpt/ImgCmpt";
 import Text1 from "../Text1/Text1";
 import Misc1 from "../Misc/Misc1";
@@ -17,7 +16,6 @@ const Content = () => {
     <div>
       <Para2 />
       <Para3 />
-      <Para4 />
       <ImgCmpt />
       <Text1 />
       <Misc1 />

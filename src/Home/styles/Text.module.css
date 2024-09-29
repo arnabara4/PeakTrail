@@ -30,17 +30,18 @@ body {
   flex-direction: column;
   margin-left: 100px;
 }
-.VThead {
+.VThead{
   font-family: "Poppins";
-  font-size: 120px;
+  width: 50%;
   font-weight: 900;
   line-height: 100px;
   letter-spacing: -0.03em;
   text-align: left;
   text-shadow: 0px 2px, 2px 0px, 2px 2px;
   margin-left: 20px;
-  color: rgba(0, 0, 0, 0);
-  -webkit-text-stroke: 1px white;
+}
+.VThead img{
+  width: 100%;
 }
 .VidTxt {
   display: flex;
@@ -146,13 +147,12 @@ body {
   padding: 0 10px;
 }
 .Text2Wrapper div {
-  display: flex;
-  flex-direction: column;
   gap: 15px;
   font-family: "Poppins";
-  font-size: 120px;
+  width: 40%;
+  font-size: 7.5em;
   font-weight: 700;
-  line-height: 100px;
+  line-height: 1em;
   letter-spacing: -0.02em;
   text-align: left;
   padding-left: 50px;
@@ -208,12 +208,13 @@ body {
 .Text4Wrapper div {
   display: flex;
   font-family: "Poppins";
-  font-size: 65px;
-  font-weight: 400;
+  font-size: 3em;
+  font-weight: 900;
   line-height: 100px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   text-align: left;
   gap: 21px;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 .Text4Wrapper p {
   font-family: "Poppins";
@@ -237,6 +238,7 @@ body {
   }
   .VThead {
     font-size: 20vw;
+    width: 95%;
     margin: 0;
   }
   .VidTxt {
@@ -244,7 +246,7 @@ body {
     object-fit: contain;
     align-items: flex-start;
     position: absolute;
-    top: 60%;
+    top: 0%;
     gap: 20px;
   }
   .VidTxt div {
@@ -257,7 +259,7 @@ body {
     display: flex;
     font-size: 135px;
     position: absolute;
-    top: 35vh;
+    top: 28vh;
   }
   .Para2 {
     margin: 0;
@@ -302,25 +304,24 @@ body {
     margin: 0;
     padding: 0;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     gap: 20px;
+    margin-top: 30px;
   }
   .Text2Wrapper div {
-    width: 50%;
+    width: 55%;
     transform: scale(0.6);
     padding: 0;
     gap: 0px;
-    font-size: 5.5em;
+    font-size: 3.3em;
     line-height: 1em;
-    margin: 0;
   }
   .Text2Wrapper p {
-    width: 50%;
+    width: 45%;
     padding: 0;
     transform: scale(0.7);
-    line-height: 25px;
-    font-size: 1.4em;
-    margin-top: 18vh;
+    line-height: 1em;
+    font-size: 0.9em;
   }
   .Text3Wrapper {
     margin: 0;

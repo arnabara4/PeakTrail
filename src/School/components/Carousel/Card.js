@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/Carousel.module.css";
+import styles from "../../styles/Carousal2.module.css";
 
 const Card = ({ review, img, name, profession }) => {
   return (

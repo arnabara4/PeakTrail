@@ -5,9 +5,7 @@ const Text2 = () => {
   return (
     <div className={styles.Text2Wrapper}>
       <div>
-        <span>Wondering</span>
-        <span>what's in</span>
-        <span className={styles.laal}>our plan ?</span>
+        Wondering whats in <em className={styles.laal}>our plan?</em>
       </div>
         <p>
           First, an amazing destination that wows you. Experience thrilling

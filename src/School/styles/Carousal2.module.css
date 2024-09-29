@@ -1,0 +1,138 @@
+.contain {
+    background: #fde6e7;
+    position: relative;
+    margin-top: 20vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    position: relative;
+    align-items: center;
+  }
+  .Carousel {
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 20vw);
+    column-gap: 4vw;
+    padding-top: 15vh;
+    scroll-behavior: smooth;
+    margin-bottom: 100px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    width: 19vw;
+    background-color: white;
+    padding: 15px;
+    padding-top: 6vh;
+  }
+  .data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .data img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .data span {
+    font-family: "Cabin", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .data text {
+    font-family: "Cabin", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .card p {
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    height: 50%;
+  }
+  .container button {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fde6e7;
+    border: none;
+    color: black;
+    font-size: 40px;
+  }
+  .prebtn {
+    right: 45%;
+    top: 8%;
+  }
+  .postbtn {
+    right: 41%;
+    top: 8%;
+  }
+  .TxtWrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 5em;
+    font-weight: 400;
+    line-height: 93.33px;
+    letter-spacing: -0.03em;
+    padding-left: 8vw;
+  }
+  .pic1 {
+    position: absolute;
+    width: 15vw;
+    bottom: 0;
+    left: 0;
+  }
+  .pic2 {
+    position: absolute;
+    width: 15vw;
+    bottom: 0;
+    right: 0;
+  }
+  @media(max-width:500px){
+    .contain{
+      margin-top: 10vh;
+    }
+    .TxtWrapper{
+      width: 40%;
+      font-size: 2em;
+      padding: 0;
+      line-height: 5vh;
+    }
+    .Carousel{
+      column-gap:20vw;
+    }
+    .card{
+      padding: 10px;
+      gap: 3vh;
+      width: 30vw;
+    }
+    .card p {
+      font-size: 10px;
+    }
+    .data img{
+      width:20px;
+      height: 20px;
+    }
+    .prebtn {
+      transform: scale(0.8);
+    }
+    .postbtn{
+      transform: scale(0.8);
+      right: 38%;
+    }
+  }
+  

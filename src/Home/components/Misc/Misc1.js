@@ -5,14 +5,6 @@ const Misc1 = () => {
     <div className={styles.Misc1Wrapper}>
       <div className={styles.Misc1Cmpt}>
         <span></span>
-        <b>You can cancel anytime with a small percentage of the fee</b>
-        <p>
-          We’ll make it unforgettable with amazing experiences and smooth
-          planning. Just relax and enjoy—let us handle everything!{" "}
-        </p>
-      </div>
-      <div className={styles.Misc1Cmpt}>
-        <span></span>
         <b>24/7 support ready to help you anytime</b>
         <p>For questions or emergencies, we're always just a call away</p>
       </div>

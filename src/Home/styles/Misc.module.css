@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   gap: 13px;
-  width: 30%;
+  width: 50%;
   transition: box-shadow 0.5s ease;
   padding: 15px;
   border-radius: 15px;
@@ -58,8 +58,8 @@
 .Misc2text {
   display: flex;
   flex-direction: column;
-  gap: 60px;
-  width: 37%;
+  gap: 30px;
+  width: 45%;
 }
 .Misc2text p {
   font-family: "Mulish";
@@ -128,7 +128,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5vh;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .MiscPhoneWrapper p {
     font-family: "Poppins";
