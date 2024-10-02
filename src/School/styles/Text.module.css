@@ -125,6 +125,89 @@ body {
   color: #838383;
   margin-left: 45vw;
 }
+.txt0Wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.txt0 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  font-size: 2.4em;
+  font-weight: 400;
+  width: 40%;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: -0.04em;
+  text-align: left;
+  gap: 2vh;
+}
+.grey {
+  color: #838383;
+}
+.txt0Wrapper img {
+  width: 30%;
+  height: 85vh;
+}
+.Txt4Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+  margin-top: 15vh;
+}
+.Txt4Para1 {
+  gap: 3vh;
+  width: 60%;
+}
+.Txt4Para1 em {
+  font-style: normal;
+  color: #ff0000;
+}
+.Txt4Para1 p {
+  font-family: "Poppins";
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 18vh;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.Txt4Para2 {
+  width: 20%;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 3vh;
+  letter-spacing: -0.04em;
+  text-align: right;
+  color: #838383;
+  padding-right: 2vw;
+}
+.txt5{
+  margin-top: 20vh;
+}
+.Txt5Wrapper {
+  font-family: "Poppins";
+  width: 47%;
+  font-size: 6em;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  text-align: left;
+  padding-left: 5vw;
+}
+.Txt6Wrapper{
+  margin-top: 15vh;
+  width: 80%;
+  font-family: "Poppins";
+  font-size: 5.7em;
+  line-height: 1.1em;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-left: 5vw;
+}
 @media (max-width: 500px) {
   video {
     height: 60vh;
@@ -133,7 +216,7 @@ body {
     margin: 0;
     gap: 0;
     transform: scale(0.8);
-    margin-right:25em;
+    margin-right: 25em;
   }
   .VThead {
     font-size: 18vw;
@@ -160,35 +243,76 @@ body {
     position: absolute;
     top: 170px;
   }
-  .Text1Wrapper{
+  .Text1Wrapper {
     gap: 5vw;
+    margin-top: 8vh;
   }
-  .Txt1{
+  .Txt1 {
     font-size: 3.5em;
   }
-  .Txt2{
+  .Txt2 {
     font-size: 0.9em;
   }
-  .Text2Wrapper{
+  .Text2Wrapper {
     margin-top: 50px;
     font-size: 3.5em;
     line-height: 0.9em;
   }
-  .Text3{
+  .Text3 {
     margin-top: 10vh;
     font-size: 1em;
     line-height: 3vh;
     margin-left: 40vw;
   }
+  .Txt4Wrapper {
+    padding: 0 20px;
+    margin-top: 5vh;
+  }
+  .Txt4Para1 p {
+    font-size: 3em;
+    line-height: 6vh;
+    width: 50%;
+  }
+  .Txt4Para2 {
+    width: 50%;
+  }
+  .txt0{
+    font-size: 0.8em;
+  }
+  .txt0Wrapper img{
+    height: 100%;
+  }
+  .txt0Wrapper {
+    margin-top: 8vh;
+  }
+  .Txt5Wrapper{
+    font-size: 3em;
+  }
+  .txt5{
+    margin-top: 10vh;
+  }
+  .Txt6Wrapper{
+    margin-top: 10vh;
+    font-size: 2em;
+  }
 }
-@media(max-width:400px){
-  .Text1Wrapper{
+@media (max-width: 400px) {
+  .Text1Wrapper {
     gap: 5vw;
   }
-  .Txt1{
+  .Txt1 {
     font-size: 2.5em;
   }
-  .Txt2{
+  .Txt2 {
     font-size: 0.8em;
+  }
+  .txt0{
+    font-size: 0.6em;
+  }
+  .txt0Wrapper img{
+    height: 100%;
+  }
+  .Txt5Wrapper{
+    font-size: 2em;
   }
 }

@@ -1,3 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  margin-top: 15vh;
+}
+.Comp {
+  display: flex;
+  gap: 12vw;
+  justify-content: center;
+  align-items: center;
+}
+.Comp img {
+  width: 35%;
+}
+.txt {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  width: 43%;
+}
+.txt span {
+  font-family: "Poppins", cursive;
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  text-align: left;
+  text-shadow: 0px 1.5px, 1.5px 0px, 1.5px 1.5px;
+}
+.txt em {
+  color: #ff0000;
+}
+.txt p {
+  font-family: "Poppins";
+  font-size: 1.5em;
+  font-weight: 100;
+  letter-spacing: -0.15157552063465118px;
+  text-align: left;
+  color: #838383;
+  line-height: 1.3em;
+}
 .CoveredWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -46,21 +89,26 @@
   padding: 0 6vw;
 }
 .imgPic {
+  display: flex;
+}
+.imgPic div {
+  display: flex;
+  width: 60%;
   padding: 0 3vw;
   position: relative;
-  border-radius: 15px;
-  object-fit: cover;
+  object-fit: contain;
   margin-top: 30px;
 }
 .bgpic {
-  height: 100%;
+  height: 60vh;
   width: 100%;
   z-index: -1;
+  border-radius: 25px;
 }
-.hk{
+.hk {
   position: absolute;
-  width: 30vw;
-  bottom:5vh;
+  width: 20vw;
+  bottom: 5vh;
   right: 6vw;
 }
 .MiscComp img {
@@ -70,4 +118,56 @@
   font-style: normal;
   color: #ff0000;
   -webkit-text-stroke: #ff0000 2px;
+}
+@media (max-width: 500px) {
+  .bgpic {
+    height: 100%;
+  }
+  .hk {
+    top: 70%;
+  }
+  .container {
+    margin-top: 8vh;
+  }
+  .Comp {
+    gap: 10vw;
+    align-items: center;
+  }
+  .Comp img {
+    width: 50%;
+    height: 100%;
+  }
+  .txt {
+    width: 30%;
+    gap: 2vh;
+  }
+  .txt span {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  }
+  .txt p {
+    font-size: 0.5em;
+  }
+  .CoveredWrapper {
+    gap: 25px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .CardWrapper {
+    justify-content: space-between;
+    width: 45%;
+    align-items: first baseline;
+  }
+  .CardWrapper img {
+    width: 30px;
+    height: 30px;
+  }
+  .CardWrapper span {
+    font-size: 1.5em;
+  }
+  .CardWrapper p {
+    font-size: 1em;
+    line-height: 2vh;
+  }
 }
